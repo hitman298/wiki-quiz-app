@@ -1,0 +1,179 @@
+[
+    {
+        "id": 1,
+        "url": "https://en.wikipedia.org/wiki/Great_horned_owl",
+        "title": "Great horned owl",
+        "summary": "The great horned owl is a large, adaptable owl native to the Americas, with a vast range and diverse diet. It is one of the earliest nesting birds in North America and is known for its distinctive hooting call and silent flight. The species has a number of subspecies, which vary in color and size, and is found in a wide range of habitats, from forests to deserts.",
+        "key_entities": {
+            "people": [
+                "Johann Friedrich Gmelin",
+                "George Edwards",
+                "André Duméril",
+                "Carl Linnaeus"
+            ],
+            "organizations": [],
+            "locations": [
+                "Americas",
+                "North America",
+                "South America",
+                "Eurasia",
+                "Alaska",
+                "Ontario",
+                "California",
+                "Texas",
+                "Yucatán Peninsula",
+                "Baja California",
+                "Georgia",
+                "Rocky Mountains",
+                "Argentina",
+                "Bolivia",
+                "Peru",
+                "Guatemala",
+                "El Salvador",
+                "Nicaragua",
+                "Costa Rica",
+                "Panama",
+                "West Indies",
+                "Haida Gwaii"
+            ]
+        },
+        "sections": [
+            "Taxonomy",
+            "Description",
+            "Distribution and habitat",
+            "Behavior",
+            "Diet",
+            "Reproduction",
+            "Conservation"
+        ],
+        "quiz": [
+            {
+                "question": "What is the scientific name of the great horned owl?",
+                "options": [
+                    "Bubo virginianus",
+                    "Strix virginia",
+                    "Buteo jamaicensis",
+                    "Aquila chrysaetos"
+                ],
+                "answer": "Bubo virginianus",
+                "difficulty": "easy",
+                "explanation": "Bubo virginianus is the scientific name."
+            },
+            {
+                "question": "What is the primary source of food for the great horned owl?",
+                "options": [
+                    "Rabbits and hares",
+                    "Rats and mice",
+                    "Voles",
+                    "All of the above"
+                ],
+                "answer": "All of the above",
+                "difficulty": "easy",
+                "explanation": "They have a diverse diet."
+            },
+            {
+                "question": "What is unique about the great horned owl's flight?",
+                "options": [
+                    "It is very loud",
+                    "It is very fast",
+                    "It is silent",
+                    "It is only done at night"
+                ],
+                "answer": "It is silent",
+                "difficulty": "medium",
+                "explanation": "Known for silent flight."
+            },
+            {
+                "question": "How many subspecies of the great horned owl are currently recognized?",
+                "options": [
+                    "10",
+                    "15",
+                    "20",
+                    "25"
+                ],
+                "answer": "15",
+                "difficulty": "medium",
+                "explanation": "There are a number of subspecies."
+            },
+            {
+                "question": "What is the purpose of the great horned owl's ear tufts?",
+                "options": [
+                    "To hear better",
+                    "To see better",
+                    "To fly better",
+                    "Unknown"
+                ],
+                "answer": "Unknown",
+                "difficulty": "hard",
+                "explanation": "The exact purpose is debated or unknown."
+            },
+            {
+                "question": "How does the great horned owl's hearing compare to that of a human?",
+                "options": [
+                    "It is similar",
+                    "It is slightly better",
+                    "It is up to 10 times better",
+                    "It is worse"
+                ],
+                "answer": "It is up to 10 times better",
+                "difficulty": "medium",
+                "explanation": "Excellent hearing."
+            },
+            {
+                "question": "What is the great horned owl's average wingspan?",
+                "options": [
+                    "50-70 cm",
+                    "70-90 cm",
+                    "90-120 cm",
+                    "120-150 cm"
+                ],
+                "answer": "90-120 cm",
+                "difficulty": "easy",
+                "explanation": "Wingspan range."
+            },
+            {
+                "question": "What is the great horned owl's average weight?",
+                "options": [
+                    "500-700 g",
+                    "1000-1200 g",
+                    "1200-1500 g",
+                    "1500-2000 g"
+                ],
+                "answer": "1200-1500 g",
+                "difficulty": "easy",
+                "explanation": "Weight range."
+            },
+            {
+                "question": "What is the great horned owl's breeding habitat?",
+                "options": [
+                    "Deserts",
+                    "Forests",
+                    "Grasslands",
+                    "All of the above"
+                ],
+                "answer": "All of the above",
+                "difficulty": "medium",
+                "explanation": "Wide range of habitats."
+            },
+            {
+                "question": "What is the great horned owl's conservation status?",
+                "options": [
+                    "Endangered",
+                    "Vulnerable",
+                    "Least Concern",
+                    "Not evaluated"
+                ],
+                "answer": "Least Concern",
+                "difficulty": "easy",
+                "explanation": "It is adaptable and widespread."
+            }
+        ],
+        "related_topics": [
+            "Owl",
+            "Birds of prey",
+            "Nocturnal animals",
+            "Silent flight",
+            "Ear tufts"
+        ]
+    }
+]
