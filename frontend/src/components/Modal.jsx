@@ -11,7 +11,7 @@ export default function Modal({ children, onClose }) {
                 exit={{ scale: 0.9, opacity: 0 }}
                 className="bg-white rounded-2xl border-4 border-black shadow-neo-lg w-full max-w-5xl max-h-[90vh] overflow-hidden flex flex-col relative"
             >
-                <div className="flex items-center justify-between p-4 border-b-4 border-black bg-white sticky top-0 z-20">
+                <div className="flex items-center justify-between p-4 border-b-4 border-black bg-white z-50 shadow-sm shrink-0 relative">
                     <span className="font-black text-xl italic bg-black text-white px-3 py-1 transform -rotate-2">
                         REVIEW MODE
                     </span>
@@ -22,7 +22,7 @@ export default function Modal({ children, onClose }) {
                         <X className="w-6 h-6 text-black" />
                     </button>
                 </div>
-                <div className="p-6 overflow-y-auto custom-scrollbar">
+                <div className="p-6 overflow-y-auto custom-scrollbar flex-1 relative z-0">
                     {children}
                 </div>
             </motion.div>

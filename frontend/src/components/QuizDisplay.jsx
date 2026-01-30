@@ -7,12 +7,19 @@ import confetti from 'canvas-confetti';
 
 export default function QuizDisplay({ data }) {
     const [answers, setAnswers] = useState(() => {
-        // Try to load saved answers for this specific quiz URL to prevent collision
-        // Ideally we use ID, but URL is decent proxy if we don't have ID in all contexts
-        const saved = localStorage.getItem('wiki_quiz_answers');
+        // Load saved answers specific to this quiz ID to support History/Review mode
+        if (!data?.id) return {};
+
+        const storageKey = `wiki_quiz_answers_${data.id}`;
+        const saved = localStorage.getItem(storageKey);
+
         if (saved) {
-            const parsed = JSON.parse(saved);
-            if (parsed.url === data.url) return parsed.answers;
+            try {
+                return JSON.parse(saved);
+            } catch (e) {
+                console.error("Failed to parse saved answers", e);
+                return {};
+            }
         }
         return {};
     });
@@ -26,11 +33,11 @@ export default function QuizDisplay({ data }) {
     const progress = (answeredCount / totalQuestions) * 100;
 
     useEffect(() => {
-        localStorage.setItem('wiki_quiz_answers', JSON.stringify({
-            url: data.url,
-            answers: answers
-        }));
-    }, [answers, data.url]);
+        if (data?.id) {
+            const storageKey = `wiki_quiz_answers_${data.id}`;
+            localStorage.setItem(storageKey, JSON.stringify(answers));
+        }
+    }, [answers, data.id]);
 
     const handleOptionSelect = (questionIndex, option) => {
         if (showResults) return;
