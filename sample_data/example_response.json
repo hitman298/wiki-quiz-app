@@ -1,0 +1,59 @@
+{
+    "id": 1,
+    "url": "https://en.wikipedia.org/wiki/Quantum_computing",
+    "title": "Quantum computing",
+    "summary": "Quantum computing is a type of computation whose operations can exploit the many-particle quantum superposition of qubits. Early models of quantum computers were proposed in the 1980s by Richard Feynman and Yuri Manin. A central goal is to show quantum supremacy.",
+    "key_entities": {
+        "people": [
+            "Richard Feynman",
+            "Yuri Manin",
+            "Paul Benioff"
+        ],
+        "organizations": [
+            "Google",
+            "IBM",
+            "Microsoft"
+        ],
+        "locations": [
+            "USA",
+            "China"
+        ]
+    },
+    "sections": [
+        "History",
+        "Principles",
+        "Operations",
+        "Potential applications"
+    ],
+    "quiz": [
+        {
+            "question": "Who were among the first to propose models of quantum computers?",
+            "options": [
+                "Albert Einstein and Niels Bohr",
+                "Richard Feynman and Yuri Manin",
+                "Alan Turing and John von Neumann",
+                "Steve Jobs and Bill Gates"
+            ],
+            "answer": "Richard Feynman and Yuri Manin",
+            "difficulty": "medium",
+            "explanation": "Mentioned in the 'History' section as proponents in the 1980s."
+        },
+        {
+            "question": "What is the basic unit of information in quantum computing?",
+            "options": [
+                "Bit",
+                "Qubit",
+                "Byte",
+                "Photon"
+            ],
+            "answer": "Qubit",
+            "difficulty": "easy",
+            "explanation": "Quantum computing uses qubits which can be in superposition."
+        }
+    ],
+    "related_topics": [
+        "Quantum mechanics",
+        "Superposition",
+        "Entanglement"
+    ]
+}
