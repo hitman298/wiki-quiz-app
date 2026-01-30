@@ -1,5 +1,7 @@
 # AI Wiki Quiz Generator
 
+[![Live Demo](https://img.shields.io/badge/Live-Demo-brightgreen?style=for-the-badge&logo=vercel)](https://wiki-quiz-q9h21nn91-lohith-ratans-projects.vercel.app/)
+
 A full-stack application that transforms any Wikipedia article into an interactive quiz using AI. Built with FastAPI (Python) and React (Vite).
 
 ## Features
